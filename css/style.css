@@ -1,33 +1,35 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-h1{
+
+h1 {
     font-family: sans-serif;
     color: rgb(165, 42, 42);
 }
-.hola-mundo{
+
+.hola-mundo {
     background-color: aqua;
     text-align: center;
     max-width: 650px;
     margin: 15px auto;
 }
 
-.hola-mundo:hover{
+.hola-mundo:hover {
     background-color: crimson;
     transition: .3s;
 
 }
 
-h1:hover{
+h1:hover {
     color: white;
-    transform: skew(-20deg);
+    transform: skew(-15deg);
     transition: .3s;
 
 }
 
-.flex-index{
+.flex-index {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -39,8 +41,8 @@ h1:hover{
 
 
 @media (max-width: 550px) {
-  .hola-mundo {
-    background-color: darkgreen;
-  }
-    
+    .hola-mundo {
+        background-color: darkgreen;
+    }
+
 }
